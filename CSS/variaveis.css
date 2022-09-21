@@ -1,0 +1,14 @@
+:root {
+    --ciano: hsl(171, 66%, 44%);
+    --azul-claro: hsl(233, 100%, 69%);
+    --cinza-escuro: hsl(210, 10%, 33%);
+    --cinza-claro: hsl(201, 11%, 66%);
+
+
+    --fonte-principal: 'Bai Jamjuree', sans-serif;
+
+    --peso-titulo: 600;
+    --peso-paragrafo: 400;
+
+    --tamanho-corpo: 1.125rem;
+}

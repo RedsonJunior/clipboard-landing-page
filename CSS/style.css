@@ -1,0 +1,39 @@
+@import url(./reset.css);
+@import url(./variaveis.css);
+@import url(./botoes.css);
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-corpo);
+    color: var(--cinza-claro);
+    font-weight: var(--peso-paragrafo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background:url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 23vh;
+}
+
+.container__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8vh 17.5%;
+}
+
+.titulo__cabecalho {
+    color: var(--cinza-escuro);
+    font-size: 2.8rem;
+    font-weight: var(--peso-titulo);
+    margin: 3rem 0 0;
+}
+
+.paragrafo__cabecalho {
+    line-height: 1.75rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
