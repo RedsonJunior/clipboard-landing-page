@@ -14,7 +14,7 @@ body {
     background:url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 23vh;
+    background-size: 100% 30vh;
 }
 
 .container__cabecalho {
@@ -22,13 +22,16 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 8vh 17.5%;
+    margin: 14vh 17.5%;
 }
 
-.titulo__cabecalho {
+.titulos {
     color: var(--cinza-escuro);
-    font-size: 2.8rem;
     font-weight: var(--peso-titulo);
+}
+
+.titulo__cabecalho { 
+    font-size: 2.8rem;
     margin: 3rem 0 0;
 }
 
@@ -36,4 +39,49 @@ body {
     line-height: 1.75rem;
     font-size: 1.3rem;
     margin-bottom: 3rem;
+}
+
+.titulo__main {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.paragrafo__main {
+    text-align: center;
+    margin: 0 25vw 10rem;
+    line-height: 2rem;
+}
+
+.imagem__computador {
+    display: block;
+    position: absolute;
+    left: -2vw;
+    width: 500px;
+}
+
+.container__funcionalidades {
+    margin-left: 55vw;
+    width: 27vw;
+    padding-top: 2rem;
+    line-height: 1rem;
+}
+
+.paragrafo__funcionalidades {
+    margin-bottom: 3.5rem;
+    line-height: 2rem;
+}
+
+.container__access {
+    margin-top: 14vw;
+    text-align: center;
+}
+
+.titulo__access {
+   font-size: 2rem;
+}
+
+.paragrafo__acess {
+    margin: 0 25vw 5rem;
+    line-height: 2rem;
 }
