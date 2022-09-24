@@ -14,9 +14,10 @@ body {
     background:url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 30vh;
-}
+    background-size: 100vw 30vh;
 
+}
+  
 .container__cabecalho {
     display: flex;
     flex-direction: column;
@@ -35,7 +36,7 @@ body {
     margin: 3rem 0 0;
 }
 
-.paragrafo__cabecalho {
+.paragrafo__cabecalho{
     line-height: 1.75rem;
     font-size: 1.3rem;
     margin-bottom: 3rem;
@@ -56,13 +57,13 @@ body {
 .imagem__computador {
     display: block;
     position: absolute;
-    left: -2vw;
-    width: 500px;
+    left: -4vw;
+    width: 50vw;
 }
 
 .container__funcionalidades {
     margin-left: 55vw;
-    width: 27vw;
+    width: 35vw;
     padding-top: 2rem;
     line-height: 1rem;
 }
@@ -73,7 +74,7 @@ body {
 }
 
 .container__access {
-    margin-top: 14vw;
+    margin-top: 16vw;
     text-align: center;
 }
 
@@ -84,4 +85,75 @@ body {
 .paragrafo__acess {
     margin: 0 25vw 5rem;
     line-height: 2rem;
+}
+
+.container__workflow {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2rem 12vw 0;
+}
+
+.workflow__itens {
+    width: 23vw;
+}
+
+.paragrafo__workflow{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.container__marcas {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem 12vw 0;
+}
+
+.container__download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 14vh 17.5% 0;
+}
+
+.titulo__download {
+    font-size: 2.5rem;
+    margin: 3rem 0 0;
+}
+
+.paragrafo__download {
+    line-height: 1.75rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.container__rodape {
+    background-color: #e9eff1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 3rem 0;
+    width: 100vw;
+}
+
+.logo__rodape {
+    width: 55px;
+    height: 55px
+}
+
+.texto__rodape {
+    width: 38vw;
+    text-align: left;
+}
+
+.links__rodape {
+    text-decoration: none;
+    color: #5f5f5f;
+    margin-right: 2rem;
+}
+
+.contato__rodape {
+    width: 30vw;
 }
