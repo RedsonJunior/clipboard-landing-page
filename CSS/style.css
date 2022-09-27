@@ -61,7 +61,7 @@ body {
     width: 50vw;
 }
 
-.imagem__computador__mobile {
+.imagem__comp__mobile {
     display: none;
 }
 
@@ -168,22 +168,39 @@ body {
 
 @media screen and (max-width: 980px) {
     .container__cabecalho {
-        margin: 14vh 12%;
+        margin: 14vh 10%;
     }
+
     .titulo__cabecalho { 
         font-size: 2rem;
         margin: 3rem 0 0;
     }
+
     .paragrafo__cabecalho{
         line-height: 1.75rem;
         font-size: 1rem;
         margin-bottom: 3rem;
     }
+
+    .titulo__main {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
     .imagem__computador {
         display: none;
-    }    
-    .imagem__computador__mobile {
-        display: block;
-        justify-content: center;
     }
+
+    .imagem__comp__mobile {
+        width: 35vw;
+    }
+
+    .container__funcionalidades {
+        margin-left: 0;
+        width: 35vw;
+        padding-top: 2rem;
+        line-height: 1rem;
+    }
+
 }
